@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVIDIA Nemotron - Premier Open Models for Efficient AI Agents</title>
+    <meta name="description"
+        content="Discover NVIDIA Nemotron 3 Nano, the preeminent open model family for agentic AI. Featuring Hybrid Mamba-Transformer architecture and 1M context window for unmatched efficiency and reasoning.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">NVIDIA <span class="text-green">Nemotron</span></div>
+            <ul class="nav-links">
+                <li><a href="#models">Models</a></li>
+                <li><a href="#developers">Developers</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="https://build.nvidia.com" class="btn btn-primary sm">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge">New Release: Nemotron 3 Nano</div>
+                <h1>The Preeminent Open Model Family for <span class="text-green">Agents</span> featuring Nemotron 3
+                    Nano</h1>
+                <p class="hero-sub">Efficiency, Accuracy, and Openness Reimagined. Nemotron is built to power the next
+                    generation of multi-agent workflows.</p>
+                <div class="hero-cta">
+                    <a href="#spotlight" class="btn btn-primary">Explore Models</a>
+                    <a href="https://huggingface.co/nvidia" class="btn btn-outline">Try Demo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="hero.png" alt="Nemotron Network Visualization">
+            </div>
+        </div>
+    </header>
+
+    <!-- Intro / Pillars -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-card">
+                    <div class="icon">🔓</div>
+                    <h3>True Openness</h3>
+                    <p>Open Weights, Open Data, Open Recipes. We empower you to own your AI stack completely.</p>
+                </div>
+                <div class="intro-card">
+                    <div class="icon">🤖</div>
+                    <h3>Agent-Native</h3>
+                    <p>Designed specifically for tool use, multi-step reasoning, and long-context agentic
+                        workflows.</p>
+                </div>
+                <div class="intro-card">
+                    <div class="icon">⚡</div>
+                    <h3>Unmatched Efficiency</h3>
+                    <p>Hybrid architectures delivering small model footprint with large model
+                        intelligence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPOTLIGHT SECTION: Nemotron 3 Nano -->
+    <section id="spotlight" class="spotlight">
+        <div class="container">
+            <div class="spotlight-header">
+                <span class="spotlight-label">PRODUCT SPOTLIGHT</span>
+                <h2>Nemotron-3 Nano (30B A3B)</h2>
+                <p class="spotlight-tagline">“The Brain of Your Next Agent”</p>
+            </div>
+
+            <div class="spotlight-content">
+                <div class="spotlight-features">
+                    <div class="feature-item">
+                        <h4>The Hybrid Revolution</h4>
+                        <p>World's first <strong>Hybrid Mamba-Transformer MoE</strong>. Combines infinite context speed
+                            with Transformer precision.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Extreme Efficiency</h4>
+                        <p><strong>31.6B Parameters</strong>, yet only <strong>3.6B Active</strong> per token. Delivers
+                            <strong>4x Faster Throughput</strong> than previous generations.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>1M Context Window</h4>
+                        <p>Perfect memory for RAG and long-document analysis, keeping context intact across long
+                            horizons.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Reasoning Mode</h4>
+                        <p>Toggle <strong>"Thinking Mode"</strong> ON/OFF. Control your budget between speed and deep
+                            chain-of-thought reasoning.</p>
+                    </div>
+                </div>
+                <div class="spotlight-stats">
+                    <div class="stat-card">
+                        <span class="stat-num">4x</span>
+                        <span class="stat-desc">Faster Throughput</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">1M</span>
+                        <span class="stat-desc">Context Window</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">30B</span>
+                        <span class="stat-desc">MoE Parameters</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Family Comparison -->
+    <section id="models" class="family">
+        <div class="container">
+            <div class="section-title">
+                <h2>Specialized for Every Need</h2>
+                <p>From edge devices to data center scale, there is a model for every task.</p>
+            </div>
+            <div class="family-grid">
+                <!-- Card 1 -->
+                <div class="model-card">
+                    <div class="card-tag">Flagship</div>
+                    <h3>Llama-3.1 Nemotron 70B</h3>
+                    <p class="role">The Judge & Teacher</p>
+                    <p class="desc">Beats GPT-4o on release. Best for hard instruction following and synthetic data
+                        generation.</p>
+                    <ul class="specs">
+                        <li>Start-of-the-art Reward Model</li>
+                        <li>High Precision</li>
+                    </ul>
+                </div>
+                <!-- Card 2 -->
+                <div class="model-card">
+                    <div class="card-tag">Research</div>
+                    <h3>Nemotron Super (49B)</h3>
+                    <p class="role">The Deep Researcher</p>
+                    <p class="desc">High accuracy for deep research agents. Fits on a single Data Center GPU.</p>
+                    <ul class="specs">
+                        <li>Deep Reasoning</li>
+                        <li>Single GPU Deployable</li>
+                    </ul>
+                </div>
+                <!-- Card 3 -->
+                <div class="model-card">
+                    <div class="card-tag">Enterprise</div>
+                    <h3>Nemotron Ultra (253B)</h3>
+                    <p class="role">The Heavyweight</p>
+                    <p class="desc">Maximum accuracy for rigid enterprise workflows like Supply Chain and Security.</p>
+                    <ul class="specs">
+                        <li>Massive Scale</li>
+                        <li>High Reliability</li>
+                    </ul>
+                </div>
+                <!-- Card 4 -->
+                <div class="model-card">
+                    <div class="card-tag">Utility</div>
+                    <h3>Nemotron RAG & Safety</h3>
+                    <p class="role">The Infrastructure</p>
+                    <p class="desc">Industry-leading embedding/reranking models and safety guardrails.</p>
+                    <ul class="specs">
+                        <li>Jailbreak Detection</li>
+                        <li>Top Reranking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developers -->
+    <section id="developers" class="developers">
+        <div class="container dev-content">
+            <div class="dev-text">
+                <h2>Built for Developers</h2>
+                <p>We didn't just open the model, we opened the lab.</p>
+                <div class="dev-list">
+                    <div class="dev-item">
+                        <strong>Open Data Stack</strong>
+                        <span>3 Trillion Tokens of high-quality pre-training data revealed.</span>
+                    </div>
+                    <div class="dev-item">
+                        <strong>NeMo Gym</strong>
+                        <span>Standardized RL environments with 900k+ tasks for training your own agents.</span>
+                    </div>
+                    <div class="dev-item">
+                        <strong>Deployment Ready</strong>
+                        <span>Optimized for vLLM and available as NVIDIA NIM microservices.</span>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-outline-white">Explore Developer Tools</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>What is the hardware requirement for Nemotron-3 Nano?</h4>
+                    <p>For full precision (BF16), you need ~60GB+ VRAM (e.g., A100). For quantized (FP8/INT4), it fits
+                        in ~20-32GB VRAM (RTX 3090/4090).</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I use it for commercial products?</h4>
+                    <p>Yes. It is released under the NVIDIA Open Model License, allowing for commercial use and
+                        derivative works.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Does it support "Thinking" mode?</h4>
+                    <p>Yes. Nemotron features a toggleable Reasoning Mode to improve accuracy on complex tasks at the
+                        cost of more tokens.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How do I deploy it?</h4>
+                    <p>We recommend vLLM for the fastest Nemotron inference speed on NVIDIA GPUs. It is also fully
+                        supported by standard Hugging Face Transformers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">NVIDIA <span class="text-green">Nemotron</span></div>
+                <p>Powering the next era of AI with Nemotron.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h5>Resources</h5>
+                    <a href="#">Hugging Face</a>
+                    <a href="#">Technical Report</a>
+                    <a href="#">Documentation</a>
+                </div>
+                <div class="link-group">
+                    <h5>Community</h5>
+                    <a href="#">Discord</a>
+                    <a href="#">Forums</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            &copy; 2025 NVIDIA Corporation. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+<!-- Created by Antigravity -->
+
+</html>
